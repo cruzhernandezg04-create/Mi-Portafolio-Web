@@ -4,143 +4,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpiDev | Gerardo Hernández</title>
+    <title>SpiDev | Gerardo Cruz Hernández, desarrollador web front-end</title>
+    <meta name="description" content="Landing pages y sitios web corporativos para negocios en México. Portafolio de Gerardo Cruz Hernández.">
+    <meta property="og:title" content="SpiDev | Gerardo Cruz Hernández">
+    <meta property="og:description" content="Landing pages y sitios web corporativos para negocios en México.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
-    <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
-    <!-- Iconos de FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <a class="skip" href="#main">Saltar al contenido</a>
 
-    <nav class="navbar">
-        <a href="#" class="logo">Spi<span>Dev</span></a>
-        <div class="nav-links">
-            <a href="#about">Sobre Mí</a>
-            <a href="#projects">Proyectos</a>
-            <a href="#contact">Contacto</a>
-        </div>
-    </nav>
-
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">SpiDev</h1>
-            <h2 class="hero-subtitle">Desarrollador Web Front-End</h2>
-            <a href="#projects" class="btn-neon">Ver Portafolio</a>
-        </div>
+    <header class="nav">
+        <a href="#" class="logo" aria-label="SpiDev, inicio"><img class="logo-mark" src="img/logo-spidev.webp" alt="" width="640" height="466"><span class="wordmark">Spi<b>Dev</b></span></a>
+        <nav aria-label="Principal">
+            <a href="#servicios">Servicios</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#proceso">Proceso</a>
+            <a href="#sobre-mi">Sobre mí</a>
+        </nav>
+        <a class="pill" href="#contacto">Cotizar</a>
     </header>
 
-    <section id="about" class="section">
-        <h2 class="section-title"><i class="fa-solid fa-terminal"></i>Sobre Mí</h2>
-        <p class="about-text">
-            Me llamo Gerardo Cruz Hernández, soy estudiante de Ingeniería en Tecnologías de la Información. Me apasiona
-            crear <span>sitios web corporativos y landing pages eficientes</span>, fusionando un diseño premium con un
-            stack moderno.
-            <br><br>
-            Entiendo la tecnología desde el hardware hasta el código. Utilizo herramientas de vanguardia, visualmente
-            impactantes y
-            optimizados para generar resultados comerciales.
-        </p>
+    <main id="main">
+        <section class="hero" id="hero">
+            <img class="hero-art" src="img/spidev-bg.webp" alt="" width="1600" height="893" fetchpriority="high">
 
-        <div class="tech-grid">
-            <div class="tech-pill"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</div>
-            <div class="tech-pill"><i class="fa-brands fa-square-js"></i> JavaScript UI</div>
-            <div class="tech-pill"><i class="fa-brands fa-github"></i> Git & GitHub</div>
-            <div class="tech-pill"><i class="fa-solid fa-mobile-screen"></i> Diseño Responsivo</div>
-            <div class="tech-pill"><i class="fa-solid fa-microchip"></i> Hardware & Mantenimiento</div>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <h2 class="section-title"><i class="fa-solid fa-folder-open"></i> Archivos de Proyecto</h2>
-
-        <div class="projects-grid">
-            <!-- Proyecto 1 -->
-            <div class="project-card">
-                <div>
-                    <div class="project-type">Negocio Local</div>
-                    <h3 class="project-title">Montero Studio</h3>
-                    <p class="project-desc">Landing page moderna diseñada específicamente para agendamiento de citas y
-                    servicios de barbería.</p>
+            <div class="hero-copy">
+                <div class="mask"><h1>Páginas web que convierten visitas en clientes.</h1></div>
+                <p class="lead">Soy Gerardo, desarrollador front-end. Diseño y programo landing pages y sitios
+                    corporativos para negocios en México.</p>
+                <div class="actions">
+                    <a class="btn solid" href="#proyectos">Ver proyectos</a>
+                    <a class="btn" href="https://wa.me/525549318319?text=Hola%20Gerardo%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20cotizar%20un%20sitio%20web."
+                        target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
                 </div>
-                <a href="https://cruzhernandezg04-create.github.io/Barberia-Montero-Studio/" target="_blank" class="project-link">Ver despliegue <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <!-- Proyecto 2 -->
-            <div class="project-card">
-                <div>
-                    <div class="project-type">Catálogo de ropa</div>
-                    <h3 class="project-title">TKX</h3>
-                    <p class="project-desc">Boceto interactivo de tienda de ropa digital enfocado en la exhibición
-                     visual de productos y experiencia de usuario.</p>
-                </div>
-                <a href="https://cruzhernandezg04-create.github.io/TiendaDeRopa/" target="_blank"
-                    class="project-link">Ver despliegue <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <!-- Proyecto 3 -->
-            <div class="project-card">
-                <div>
-                    <div class="project-type">Corporativo</div>
-                    <h3 class="project-title">Grupo CEMSA</h3>
-                    <p class="project-desc">Desarrollo del sitio web oficial corporativo para la presentación de
-                    servicios institucionales y empresariales.</p>
-                </div>
-                <a href="https://cruzhernandezg04-create.github.io/Pagina-CEMSA/" target="_blank" class="project-link">Ver despliegue <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <!-- Proyecto 4 -->
-            <div class="project-card">
-                <div>
-                    <div class="project-type">Institucional</div>
-                    <h3 class="project-title">Nazareos IAP</h3>
-                    <p class="project-desc">Plataforma digital desarrollada para dar visibilidad y estructura online a
-                    la Institución de Asistencia Privada.</p>
-                </div>
-                <a href="https://cruzhernandezg04-create.github.io/Pagina-Nazareos-IAP/" target="_blank" class="project-link">Ver despliegue <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <!-- Proyecto 5 -->
-            <div class="project-card">
-                <div>
-                    <div class="project-type">Landing Page</div>
-                    <h3 class="project-title">Spacioss GC</h3>
-                    <p class="project-desc">Página de aterrizaje optimizada para captura de leads y presentación limpia
-                     de servicios.</p>
-                </div>
-                <a href="https://cruzhernandezg04-create.github.io/Pagina-Spacioss/" target="_blank" class="project-link">Ver despliegue <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </div>
+        </section>
 
-        <!-- Proyecto 6 -->
+        <section class="block" id="servicios">
+            <div class="split">
+                <h2>Qué puedo hacer por tu negocio</h2>
+                <div class="services">
+                    <article>
+                        <h3>Landing pages</h3>
+                        <p>Una página clara y rápida, pensada para que quien la visita te escriba, agende o compre.</p>
+                    </article>
+                    <article>
+                        <h3>Sitios corporativos</h3>
+                        <p>La presencia digital de tu empresa: servicios, información y contacto, bien ordenados.</p>
+                    </article>
+                    <article>
+                        <h3>Rediseño de sitios</h3>
+                        <p>Mejoro la estructura, la experiencia de uso y la velocidad de un sitio que ya tienes.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    </section>
+        <section class="block" id="proyectos">
+            <div class="wide">
+                <h2 class="wide-title">Trabajo reciente</h2>
+                <ul class="cards">
+                    <li>
+                        <a class="card" href="https://cruzhernandezg04-create.github.io/Barberia-Montero-Studio/" target="_blank" rel="noopener noreferrer">
+                            <div>
+                                <span class="type">Negocio local</span>
+                                <h3>Montero Studio</h3>
+                                <p>Landing page para agendar citas y presentar los servicios de una barbería.</p>
+                            </div>
+                            <span class="go">Ver sitio <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="card" href="https://cruzhernandezg04-create.github.io/TiendaDeRopa/" target="_blank" rel="noopener noreferrer">
+                            <div>
+                                <span class="type">Catálogo de ropa</span>
+                                <h3>TKX</h3>
+                                <p>Boceto interactivo de una tienda de ropa, enfocado en mostrar bien los productos.</p>
+                            </div>
+                            <span class="go">Ver sitio <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="card" href="https://cruzhernandezg04-create.github.io/Pagina-CEMSA/" target="_blank" rel="noopener noreferrer">
+                            <div>
+                                <span class="type">Sitio corporativo</span>
+                                <h3>Grupo CEMSA</h3>
+                                <p>Sitio oficial para presentar los servicios institucionales y empresariales del grupo.</p>
+                            </div>
+                            <span class="go">Ver sitio <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="card" href="https://cruzhernandezg04-create.github.io/Pagina-Nazareos-IAP/" target="_blank" rel="noopener noreferrer">
+                            <div>
+                                <span class="type">Institución de asistencia privada</span>
+                                <h3>Nazareos IAP</h3>
+                                <p>Plataforma que da visibilidad y estructura en línea a la institución.</p>
+                            </div>
+                            <span class="go">Ver sitio <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="card" href="https://cruzhernandezg04-create.github.io/Pagina-Spacioss/" target="_blank" rel="noopener noreferrer">
+                            <div>
+                                <span class="type">Landing page</span>
+                                <h3>Spacioss GC</h3>
+                                <p>Página optimizada para captar contactos y presentar los servicios con claridad.</p>
+                            </div>
+                            <span class="go">Ver sitio <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="card card-cta" href="#contacto">
+                            <div>
+                                <span class="type">Tu proyecto</span>
+                                <h3>Puede ser el siguiente</h3>
+                                <p>Cuéntame qué necesitas y te propongo cómo llevarlo a la web.</p>
+                            </div>
+                            <span class="go">Cotizar <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <footer id="contact" class="contact-section">
-        <h2 class="section-title" style="justify-content: center;"><i class="fa-solid fa-bolt"></i> Iniciar Conexión
-        </h2>
-        <p style="color: var(--text-muted); font-size: 18px;">¿Tienes un proyecto en mente? Hablemos de código y
-            negocios.</p>
+        <section class="block" id="proceso">
+            <div class="split">
+                <h2>Cómo trabajamos juntos</h2>
+                <ol class="steps">
+                    <li><div><h3>Conversamos</h3><p>Me cuentas qué hace tu negocio y qué quieres lograr con el sitio.</p></div></li>
+                    <li><div><h3>Diseño</h3><p>Te muestro la propuesta visual antes de empezar a programar.</p></div></li>
+                    <li><div><h3>Desarrollo</h3><p>Construyo un sitio responsivo y rápido, listo para publicarse.</p></div></li>
+                    <li><div><h3>Publicación y ajustes</h3><p>Lo publico y hago contigo los últimos ajustes.</p></div></li>
+                </ol>
+            </div>
+        </section>
 
+        <section class="block" id="sobre-mi">
+            <div class="split">
+                <h2>Sobre mí</h2>
+                <div>
+                    <p class="about">Soy Gerardo Cruz Hernández, estudiante de Ingeniería en Tecnologías de la
+                        Información. Entiendo la tecnología desde el hardware hasta el código, y eso me ayuda a
+                        construir sitios que funcionan bien además de verse bien.</p>
+                    <p class="about">Mis prácticas profesionales en TI se centran en optimizar y rediseñar la
+                        experiencia de sitios web corporativos.</p>
+                    <h3 class="tools-title">Herramientas</h3>
+                    <div class="tech-grid">
+                        <div class="tech-pill"><i class="fa-brands fa-html5"></i> HTML5 &amp; CSS3</div>
+                        <div class="tech-pill"><i class="fa-brands fa-square-js"></i> JavaScript UI</div>
+                        <div class="tech-pill"><i class="fa-brands fa-github"></i> Git &amp; GitHub</div>
+                        <div class="tech-pill"><i class="fa-solid fa-mobile-screen"></i> Diseño Responsivo</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="block talk-block" id="contacto">
+            <div class="talk">
+                <div class="talk-copy">
+                    <span class="rule" aria-hidden="true"></span>
+                    <h2>Cuéntame tu proyecto</h2>
+                    <p>Sitios web corporativos, landing pages o renovación de tu sitio actual: dime qué necesitas y te responderé pronto.</p>
+                    <small class="privacy">Tus datos solo se usan para responder a tu consulta.</small>
+                </div>
+
+                <form class="form" id="form">
+                    <div class="field">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="correo">Correo electrónico</label>
+                        <input id="correo" name="correo" type="email" placeholder="tu@empresa.com" autocomplete="email">
+                    </div>
+                    <div class="field">
+                        <label for="tipo">Tipo de proyecto</label>
+                        <select id="tipo" name="tipo" required>
+                            <option value="" selected disabled>Selecciona una opción</option>
+                            <option>Landing page</option>
+                            <option>Sitio corporativo</option>
+                            <option>Rediseño de un sitio</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Describe brevemente tu proyecto y objetivos" required></textarea>
+                    </div>
+                    <button class="submit" type="submit">Enviar mensaje</button>
+                    <p class="form-note" id="form-note" role="status">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="cta" id="cierre">
+        <h2>¿Listo para llevar tu marca al siguiente nivel?</h2>
+        <p>Cuéntame sobre tu proyecto y diseñemos juntos un sitio web que destaque.</p>
         <div class="contact-links">
-            <!-- REEMPLAZA CON TU NÚMERO Y CORREO -->
-            <a href="https://wa.me/525549318319" target="_blank" class="contact-btn">
-                <i class="fa-brands fa-whatsapp" style="color: #25D366; font-size: 24px;"></i> WhatsApp
-            </a>
-            <a href="mailto:cruzhernandezg04@gmail.com" target="_blank" class="contact-btn">
-                <i class="fa-solid fa-envelope" style="color: #EA4335; font-size: 24px;"></i> Correo
-            </a>
-            <a href="https://github.com/cruzhernandezg04-create" target="_blank" class="contact-btn">
-                <i class="fa-brands fa-github" style="color: #fff; font-size: 24px;"></i> GitHub
-            </a>
+            <a class="contact-btn" href="https://wa.me/525549318319?text=Hola%20Gerardo%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20cotizar%20un%20sitio%20web."
+                target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" style="color:#25D366"></i> WhatsApp</a>
+            <a class="contact-btn" href="mailto:cruzhernandezg04@gmail.com"><i class="fa-solid fa-envelope" style="color:#EA4335"></i> Correo</a>
+            <a class="contact-btn" href="https://github.com/cruzhernandezg04-create" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" style="color:#fff"></i> GitHub</a>
         </div>
-
-        <p style="margin-top: 60px; color: #4a5568; font-size: 12px; text-transform: uppercase; letter-spacing: 2px;">
-            © 2026 SpiDev | Diseñado y Desarrollado por Gerardo Cruz Hernández.
-        </p>
+        <canvas id="sail" aria-hidden="true"></canvas>
+        <small>© 2026 SpiDev. Diseñado y desarrollado por Gerardo Cruz Hernández.</small>
     </footer>
 
-    <script> </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
